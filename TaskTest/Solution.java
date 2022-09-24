@@ -1,1 +1,9 @@
-import javax.xml.crypto.Data;import java.io.*;import java.math.BigDecimal;import java.math.BigInteger;import java.nio.*;import java.nio.file.FileVisitResult;import java.nio.file.Files;import java.nio.file.Path;import java.nio.file.SimpleFileVisitor;import java.nio.file.attribute.BasicFileAttributes;import java.sql.SQLOutput;import java.text.DateFormat;import java.text.DecimalFormat;import java.text.ParseException;import java.text.SimpleDateFormat;import java.time.LocalDate;import java.time.LocalDateTime;import java.time.Month;import java.time.format.DateTimeFormatter;import java.util.*;import java.util.concurrent.ThreadLocalRandom;import java.util.regex.Matcher;import java.util.regex.Pattern;import java.util.stream.Collectors;import java.util.stream.Stream;    public class Solution {        public static String[] strings ;        public static void main(String[] args) {        }    }
+
+
+    public class Solution {
+        public static String[] strings ;
+
+        public static void main(String[] args) {
+
+        }
+    }

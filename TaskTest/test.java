@@ -8,24 +8,38 @@ public class test {
     static StringBuilder sb;
     static boolean isCheck = true;
     static String[] args;
-    public static void main(String[] args) throws Exception {
+     public static void main(String[] args) throws Exception {
         test.args = args;
         sb = new StringBuilder();
-     /*
+
       Scanner sc = new Scanner(System.in);
-        sb.append(sc.nextLine());
-        run();
+       System.out.println("Введите режим 1 или 2");
+      int numb = sc.nextInt();
+        sc.close();
+      if (numb ==1){
+         System.out.println("Для завершения работы введите \"end\"");
+          BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        while (true) {
+            String text = br.readLine();
+            if(text.equals("end")){br.close();break;}
+            sb.append(text);
+            run();
+            }
         }
-*/
-        for (int j = 0; j < 1000&&isCheck; j++) {
+      if (numb ==2){
+            for (int j = 0; j < 1000&&isCheck; j++) {
             createSb(20, 100);
             run();
+            }
         }
+      sc.close();
     }
+
     public static void readConsole(){
         Scanner sc = new Scanner(System.in);
           sb.append(sc.nextLine());
     }
+    
     public static void createSb(int sizeOfList,int sizeOfValue, boolean sign){
         sb = new StringBuilder();
         for (int i = 0; i < sizeOfList; i++) {
