@@ -20,7 +20,7 @@ public class test {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       while (true) {
           String text = br.readLine();
-          if(text.equals("end")){break;}
+          if(text.equals("end")){br.close(); break;}
           sb.append(text);
           run();
           }
