@@ -1,7 +1,4 @@
 import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class test {
